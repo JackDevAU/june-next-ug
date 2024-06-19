@@ -31,7 +31,7 @@ Demo's for my talk - Next.js & Shadcn/ui: The Future of Modern Websites
 ### Packages
 
 - `next-themes` for easy dark/light/whatever mode
-- `shadcn/ui` for components
+- `radixui` aka -> `shadcn/ui` for components
 - `next` Framework of choice 
 - `tailwindcss` How I like writing CSS
 

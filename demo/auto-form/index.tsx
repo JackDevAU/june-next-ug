@@ -20,20 +20,13 @@ export function AutoFormSubmit({
   children,
   className,
   disabled,
-  formNoValidate,
 }: {
   children?: React.ReactNode;
   className?: string;
   disabled?: boolean;
-  formNoValidate?: boolean;
 }) {
   return (
-    <Button
-      formNoValidate={formNoValidate}
-      type="submit"
-      disabled={disabled}
-      className={className}
-    >
+    <Button type="submit" disabled={disabled} className={className}>
       {children ?? "Submit"}
     </Button>
   );
